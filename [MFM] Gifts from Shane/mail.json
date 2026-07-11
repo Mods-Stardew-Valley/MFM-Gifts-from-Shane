@@ -1,19 +1,19 @@
 [
     //Reset de progressao para mods apos a v1.0.0
     {	
-    "Id":"Reset CHANGE",
+    "Id":"Reset Shane",
 	"AutoOpen": true,
     "MailReceivedToRemove": [
-		"MailCHANGE01",
-		"MailCHANGE02",
-		"MailCHANGE03",
-		"MailCHANGE04",
-		"MailCHANGE05",
-		"MailCHANGE06",
-		"MailCHANGE07",
-		"MailCHANGE08",
-		"MailCHANGE09",
-		"MailCHANGE10"
+		"MailShane01",
+		"MailShane02",
+		"MailShane03",
+		"MailShane04",
+		"MailShane05",
+		"MailShane06",
+		"MailShane07",
+		"MailShane08",
+		"MailShane09",
+		"MailShane10"
 	    ]
     },
 
@@ -22,97 +22,97 @@
     //Caso seja necessario usar o exemplo com "Index" cas cartas repetiveis 
 
 {
-    "Id": "MailCHANGE01",
-    "GroupId": "CHANGELetters",
-    "Text": "MailCHANGE01",
+    "Id": "MailShane01",
+    "GroupId": "ShaneLetters",
+    "Text": "MailShane01",
     "Attachments": [ { "Type": "Object","Name": "Cactus Seeds","Stack": 3 } ],
-    "FriendshipConditions": [ { "NpcName": "CHANGE", "FriendshipLevel": 1 } ]
+    "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 1 } ]
 },
 
 { 
-    "Id": "MailCHANGE02",
-    "GroupId": "CHANGELetters",
-    "Text": "MailCHANGE02",
+    "Id": "MailShane02",
+    "GroupId": "ShaneLetters",
+    "Text": "MailShane02",
     "Attachments": [ { "Type": "Object", "Name": "Coffee Bean", "Stack": 4 }],
-    "FriendshipConditions": [ {"NpcName": "CHANGE","FriendshipLevel": 2 } ]
+    "FriendshipConditions": [ {"NpcName": "Shane","FriendshipLevel": 2 } ]
 },
 
 {
-    "Id": "MailCHANGE03",
-    "GroupId": "CHANGELetters",
-    "Text": "MailCHANGE03",
+    "Id": "MailShane03",
+    "GroupId": "ShaneLetters",
+    "Text": "MailShane03",
     "Attachments": [ { "Type": "Object", "Name": "Coffee", "Stack": 1 } ],
-    "FriendshipConditions": [ { "NpcName": "CHANGE", "FriendshipLevel": 3} ]
+    "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 3} ]
 },
 
 {
-    "Id": "MailCHANGE04",
-    "GroupId": "CHANGELetters",
-    "Text": "MailCHANGE04",
+    "Id": "MailShane04",
+    "GroupId": "ShaneLetters",
+    "Text": "MailShane04",
     "Attachments": [ { "Type": "Object", "Name": "Cactus Fruit", "Stack": 2 } ],
-    "FriendshipConditions": [ { "NpcName": "CHANGE", "FriendshipLevel": 4 } ]
+    "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 4 } ]
 },
 
 {
-    "Id": "MailCHANGE05",
-    "GroupId": "CHANGELetters",
-    "Text": "MailCHANGE05",
+    "Id": "MailShane05",
+    "GroupId": "ShaneLetters",
+    "Text": "MailShane05",
     "Attachments": [ { "Type": "Object", "Name": "Coconut", "Stack": 2 } ],
-    "FriendshipConditions": [ { "NpcName": "CHANGE", "FriendshipLevel": 5 } ]
+    "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 5 } ]
 },
 
 {
-    "Id": "MailCHANGE06",
-    "GroupId": "CHANGELetters",
-    "Text": "MailCHANGE06",
+    "Id": "MailShane06",
+    "GroupId": "ShaneLetters",
+    "Text": "MailShane06",
     "Attachments": [ { "Type": "Object", "Name": "Ancient Seeds", "Stack": 1 } ],
-    "FriendshipConditions": [ { "NpcName": "CHANGE", "FriendshipLevel": 6 } ]
+    "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 6 } ]
 },
 
 {
-    "Id": "MailCHANGE07",
-    "GroupId": "CHANGELetters",
-    "Text": "MailCHANGE07",
+    "Id": "MailShane07",
+    "GroupId": "ShaneLetters",
+    "Text": "MailShane07",
     "Attachments": [ { "Type": "Object", "Name": "Coffee", "Stack": 1 },
                      { "Type": "Object", "Name": "Cactus Fruit", "Stack": 1 } ],
-    "FriendshipConditions": [ { "NpcName": "CHANGE", "FriendshipLevel": 7 } ]
+    "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 7 } ]
 },
 
 {
-    "Id": "MailCHANGE08",
-    "GroupId": "CHANGELetters",
-    "Text": "MailCHANGE08",
+    "Id": "MailShane08",
+    "GroupId": "ShaneLetters",
+    "Text": "MailShane08",
     "Attachments": [ { "Type": "Object", "Name": "Coffee Bean", "Stack": 8 },
                      { "Type": "Object", "Name": "Coconut", "Stack": 1 } ],
-    "FriendshipConditions": [ { "NpcName": "CHANGE", "FriendshipLevel": 8 } ]
+    "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 8 } ]
 },
 
 {
-    "Id": "MailCHANGE09",
-    "GroupId": "CHANGELetters",
-    "Text": "MailCHANGE09",
+    "Id": "MailShane09",
+    "GroupId": "ShaneLetters",
+    "Text": "MailShane09",
     "Attachments": [ { "Type": "Object", "Name": "Ancient Fruit", "Stack": 1 },
                      { "Type": "Object", "Name": "Cactus Fruit", "Stack": 1 },
                      { "Type": "Object", "Name": "Coconut", "Stack": 1 } ],
-    "FriendshipConditions": [ { "NpcName": "CHANGE", "FriendshipLevel": 9 } ]
+    "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 9 } ]
 },
 
 {
-    "Id": "MailCHANGE10",
-    "GroupId": "CHANGELetters",
-    "Text": "MailCHANGE10",
+    "Id": "MailShane10",
+    "GroupId": "ShaneLetters",
+    "Text": "MailShane10",
     "Attachments": [ { "Type": "Object", "Index": "261", "Stack": 1 },
                      { "Type": "Object", "Name": "Rare Seed", "Stack": 1 } ],
-    "FriendshipConditions": [ { "NpcName": "CHANGE", "FriendshipLevel": 10 } ]
+    "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 10 } ]
 },
 
     //Alterar os presentes e colocar os nomes nos comentarios
 
 {
-	"Id": "CHANGERepetable",
+	"Id": "ShaneRepetable",
 	"Repeatable": true,
 	"RandomChance": 0.075,
-	"FriendshipConditions": [ { "NpcName": "CHANGE", "FriendshipLevel": 1 } ],
+	"FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 1 } ],
 	"RandomlyChooseAttachment": 1,
 	"Attachments": [
 		{ "Type": "Object", "Index": "90", "Stack": 1, "RandomGroup": "GROUPNAME" }, //Cactus Fruit
