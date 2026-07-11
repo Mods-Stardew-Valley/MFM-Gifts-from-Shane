@@ -1,5 +1,19 @@
-# Gifts-from-TEMPLATE
-Template padrão para os mods Gifts from
-Para facilitar o trabalho com os repositorios e padronizar os mods da serie
-Esse template contempla todos os arquivos necessarios para o mod funcionar
-Basta apenas modificar os nomes e os itens conforme necessario
+# Gifts-from-Shane
+Presentes 
+1 Joja cola
+2 Cerveja
+3 Pimenta
+4 Ovo grande branco
+5 Queijo
+6 Pizza
+7 Maionese e Joja cola
+8 Ovo frito e Omelet
+9 Pão estranho e Ovo nnulo
+10 Pe de coelho Pizza e Joja Cola 
+
+Repetiveis 
+ovo branco pequeno
+ovo marrom pequeno
+trigo 
+feno
+joja cola
