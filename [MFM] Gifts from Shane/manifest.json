@@ -1,12 +1,11 @@
-    //Remover comentario do UpdateKeys e trocar pelo numero correto no nexus
-{
+{ 
    "Name": "Gifts from Shane",
    "Author": "LoganDoidao",
    "Version": "1.0.0",
    "MinimumApiVersion": "4.1.0", 
    "Description": "Receive letters and gifts from your friend Shane. ",
    "UniqueID": "LoganDoidao.GiftsFromShane",
-   //"UpdateKeys": [ "Nexus:?????" ], 
+   "UpdateKeys": [ "Nexus:49110" ], 
    "ContentPackFor": {
        "UniqueID": "DIGUS.MailFrameworkMod", 
        "MinimumVersion": "1.20.0"
