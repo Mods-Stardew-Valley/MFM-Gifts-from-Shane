@@ -14,6 +14,7 @@ Presentes
 Repetiveis 
 ovo branco pequeno
 ovo marrom pequeno
-trigo 
 feno
 joja cola
+Pimenta
+Maionese

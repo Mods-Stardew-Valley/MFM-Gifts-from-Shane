@@ -1,31 +1,28 @@
 [
     //Reset de progressao para mods apos a v1.0.0
-    {	
-    "Id":"Reset Shane",
-	"AutoOpen": true,
-    "MailReceivedToRemove": [
-		"MailShane01",
-		"MailShane02",
-		"MailShane03",
-		"MailShane04",
-		"MailShane05",
-		"MailShane06",
-		"MailShane07",
-		"MailShane08",
-		"MailShane09",
-		"MailShane10"
-	    ]
-    },
-
-    //Modificar os nomes e trocar os presentes
-    //Adicionar ou remover os presentes conforme necessario
-    //Caso seja necessario usar o exemplo com "Index" cas cartas repetiveis 
+    //Remover comentarios quando atualizar
+    //{	
+    //"Id":"Reset Shane",
+	//"AutoOpen": true,
+    //"MailReceivedToRemove": [
+	//	"MailShane01",
+	//	"MailShane02",
+	//	"MailShane03",
+	//	"MailShane04",
+	//	"MailShane05",
+	//	"MailShane06",
+	//	"MailShane07",
+	//	"MailShane08",
+	//	"MailShane09",
+	//	"MailShane10"
+	//  ]
+    //},
 
 {
     "Id": "MailShane01",
     "GroupId": "ShaneLetters",
     "Text": "MailShane01",
-    "Attachments": [ { "Type": "Object","Name": "Cactus Seeds","Stack": 3 } ],
+    "Attachments": [ { "Type": "Object","Name": "Joja Cola","Stack": 1 } ],
     "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 1 } ]
 },
 
@@ -33,7 +30,7 @@
     "Id": "MailShane02",
     "GroupId": "ShaneLetters",
     "Text": "MailShane02",
-    "Attachments": [ { "Type": "Object", "Name": "Coffee Bean", "Stack": 4 }],
+    "Attachments": [ { "Type": "Object", "Name": "Beer", "Stack": 1 }],
     "FriendshipConditions": [ {"NpcName": "Shane","FriendshipLevel": 2 } ]
 },
 
@@ -41,7 +38,7 @@
     "Id": "MailShane03",
     "GroupId": "ShaneLetters",
     "Text": "MailShane03",
-    "Attachments": [ { "Type": "Object", "Name": "Coffee", "Stack": 1 } ],
+    "Attachments": [ { "Type": "Object", "Name": "Hot Pepper", "Stack": 1 } ],
     "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 3} ]
 },
 
@@ -49,7 +46,7 @@
     "Id": "MailShane04",
     "GroupId": "ShaneLetters",
     "Text": "MailShane04",
-    "Attachments": [ { "Type": "Object", "Name": "Cactus Fruit", "Stack": 2 } ],
+    "Attachments": [ { "Type": "Object", "Index": "174", "Stack": 1 } ], //Large White Egg
     "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 4 } ]
 },
 
@@ -57,7 +54,7 @@
     "Id": "MailShane05",
     "GroupId": "ShaneLetters",
     "Text": "MailShane05",
-    "Attachments": [ { "Type": "Object", "Name": "Coconut", "Stack": 2 } ],
+    "Attachments": [ { "Type": "Object", "Name": "Cheese", "Stack": 1 } ],
     "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 5 } ]
 },
 
@@ -65,7 +62,7 @@
     "Id": "MailShane06",
     "GroupId": "ShaneLetters",
     "Text": "MailShane06",
-    "Attachments": [ { "Type": "Object", "Name": "Ancient Seeds", "Stack": 1 } ],
+    "Attachments": [ { "Type": "Object", "Name": "Pizza", "Stack": 1 } ],
     "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 6 } ]
 },
 
@@ -73,8 +70,8 @@
     "Id": "MailShane07",
     "GroupId": "ShaneLetters",
     "Text": "MailShane07",
-    "Attachments": [ { "Type": "Object", "Name": "Coffee", "Stack": 1 },
-                     { "Type": "Object", "Name": "Cactus Fruit", "Stack": 1 } ],
+    "Attachments": [ { "Type": "Object", "Name": "Mayonnaise", "Stack": 1 },
+                     { "Type": "Object", "Name": "Joja Cola", "Stack": 1 } ],
     "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 7 } ]
 },
 
@@ -82,8 +79,8 @@
     "Id": "MailShane08",
     "GroupId": "ShaneLetters",
     "Text": "MailShane08",
-    "Attachments": [ { "Type": "Object", "Name": "Coffee Bean", "Stack": 8 },
-                     { "Type": "Object", "Name": "Coconut", "Stack": 1 } ],
+    "Attachments": [ { "Type": "Object", "Name": "Fried Egg", "Stack": 1 },
+                     { "Type": "Object", "Name": "Omelet", "Stack": 1 } ],
     "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 8 } ]
 },
 
@@ -91,9 +88,8 @@
     "Id": "MailShane09",
     "GroupId": "ShaneLetters",
     "Text": "MailShane09",
-    "Attachments": [ { "Type": "Object", "Name": "Ancient Fruit", "Stack": 1 },
-                     { "Type": "Object", "Name": "Cactus Fruit", "Stack": 1 },
-                     { "Type": "Object", "Name": "Coconut", "Stack": 1 } ],
+    "Attachments": [ { "Type": "Object", "Name": "Void Egg", "Stack": 1 },
+                     { "Type": "Object", "Name": "Strange Bun", "Stack": 1 } ],
     "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 9 } ]
 },
 
@@ -101,8 +97,9 @@
     "Id": "MailShane10",
     "GroupId": "ShaneLetters",
     "Text": "MailShane10",
-    "Attachments": [ { "Type": "Object", "Index": "261", "Stack": 1 },
-                     { "Type": "Object", "Name": "Rare Seed", "Stack": 1 } ],
+    "Attachments": [ { "Type": "Object", "Index": "446", "Stack": 1 }, //Rabbit's Foot
+                     { "Type": "Object", "Name": "Pizza", "Stack": 1 }, 
+                     { "Type": "Object", "Name": "Joja Cola", "Stack": 1 }],
     "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 10 } ]
 },
 
@@ -110,26 +107,17 @@
 
 {
 	"Id": "ShaneRepetable",
+    "GroupId": "RepetableShane",
 	"Repeatable": true,
 	"RandomChance": 0.075,
 	"FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 1 } ],
 	"RandomlyChooseAttachment": 1,
 	"Attachments": [
-		{ "Type": "Object", "Index": "90", "Stack": 1, "RandomGroup": "GROUPNAME" }, //Cactus Fruit
-		{ "Type": "Object", "Index": "90", "Stack": 2, "RandomGroup": "GROUPNAME" }, //Cactus Fruit   
-		{ "Type": "Object", "Index": "90", "Stack": 3, "RandomGroup": "GROUPNAME" }, //Cactus Fruit
-		{ "Type": "Object", "Index": "88", "Stack": 1, "RandomGroup": "GROUPNAME" }, //Coconut
-		{ "Type": "Object", "Index": "88", "Stack": 2, "RandomGroup": "GROUPNAME" }, //Coconut
-		{ "Type": "Object", "Index": "88", "Stack": 3, "RandomGroup": "GROUPNAME" }, //Coconut
-		{ "Type": "Object", "Index": "395", "Stack": 1, "RandomGroup": "GROUPNAME" }, //Coffee
-		{ "Type": "Object", "Index": "395", "Stack": 2, "RandomGroup": "GROUPNAME" }, //Coffee
-		{ "Type": "Object", "Index": "395", "Stack": 3, "RandomGroup": "GROUPNAME" }, //Coffee
-		{ "Type": "Object", "Index": "433", "Stack": 5, "RandomGroup": "GROUPNAME" }, //Coffee Bean
-		{ "Type": "Object", "Index": "433", "Stack": 10, "RandomGroup": "GROUPNAME" }, //Coffee Bean
-		{ "Type": "Object", "Index": "433", "Stack": 15, "RandomGroup": "GROUPNAME" }, //Coffee Bean
-		{ "Type": "Object", "Index": "802", "Stack": 3,  "RandomGroup": "GROUPNAME" }, //Cactus Seeds
-		{ "Type": "Object", "Index": "802", "Stack": 5,  "RandomGroup": "GROUPNAME" }, //Cactus Seeds
-		{ "Type": "Object", "Index": "802", "Stack": 7,  "RandomGroup": "GROUPNAME" } //Cactus Seeds
-    ]
-}
+		{ "Type": "Object", "Index": "167", "Stack": 1, "RandomGroup": "ShaneRGifts" }, //Joja Cola
+		{ "Type": "Object", "Index": "260", "Stack": 1, "RandomGroup": "ShaneRGifts" }, //Hot Pepper   
+		{ "Type": "Object", "Index": "176", "Stack": 1, "RandomGroup": "ShaneRGifts" }, //White Egg
+		{ "Type": "Object", "Index": "180", "Stack": 1, "RandomGroup": "ShaneRGifts" }, //Brown Egg
+		{ "Type": "Object", "Index": "178", "Stack": 10, "RandomGroup": "ShaneRGifts" } //Hay
+        ]
+    }
 ]
