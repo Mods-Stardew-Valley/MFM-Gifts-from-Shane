@@ -107,7 +107,8 @@
 
 {
 	"Id": "ShaneRepetable",
-    "GroupId": "RepetableShane",
+    "GroupId": "ShaneLetters",
+    "Text": "ShaneRepetable",
 	"Repeatable": true,
 	"RandomChance": 0.075,
 	"FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 1 } ],
@@ -117,7 +118,9 @@
 		{ "Type": "Object", "Index": "260", "Stack": 1, "RandomGroup": "ShaneRGifts" }, //Hot Pepper   
 		{ "Type": "Object", "Index": "176", "Stack": 1, "RandomGroup": "ShaneRGifts" }, //White Egg
 		{ "Type": "Object", "Index": "180", "Stack": 1, "RandomGroup": "ShaneRGifts" }, //Brown Egg
-		{ "Type": "Object", "Index": "178", "Stack": 10, "RandomGroup": "ShaneRGifts" } //Hay
+		{ "Type": "Object", "Index": "178", "Stack": 5, "RandomGroup": "ShaneRGifts" }, //Hay
+        { "Type": "Object", "Index": "178", "Stack": 8, "RandomGroup": "ShaneRGifts" }, //Hay
+        { "Type": "Object", "Index": "178", "Stack": 10, "RandomGroup": "ShaneRGifts" } //Hay
         ]
     }
 ]
