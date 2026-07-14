@@ -1,22 +1,20 @@
 [
-    //Reset de progressao para mods apos a v1.0.0
-    //Remover comentarios quando atualizar
-    //{	
-    //"Id":"Reset Shane",
-	//"AutoOpen": true,
-    //"MailReceivedToRemove": [
-	//	"MailShane01",
-	//	"MailShane02",
-	//	"MailShane03",
-	//	"MailShane04",
-	//	"MailShane05",
-	//	"MailShane06",
-	//	"MailShane07",
-	//	"MailShane08",
-	//	"MailShane09",
-	//	"MailShane10"
-	//  ]
-    //},
+    {	
+    "Id":"Reset Shane",
+	"AutoOpen": true,
+    "MailReceivedToRemove": [
+		"MailShane01",
+		"MailShane02",
+		"MailShane03",
+		"MailShane04",
+		"MailShane05",
+		"MailShane06",
+		"MailShane07",
+		"MailShane08",
+		"MailShane09",
+		"MailShane10"
+	  ]
+    },
 
 {
     "Id": "MailShane01",
@@ -102,8 +100,6 @@
                      { "Type": "Object", "Name": "Joja Cola", "Stack": 1 }],
     "FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 10 } ]
 },
-
-    //Alterar os presentes e colocar os nomes nos comentarios
 
 {
 	"Id": "ShaneRepetable",
