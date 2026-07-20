@@ -1,9 +1,9 @@
-name: Atualizar Changelog Automaticamente
+name: Atualizar Changelog Automatico
 
 on:
   push:
     branches:
-      - main
+      - main # O changelog será gerado sempre que você enviar alterações para a branch principal
 
 jobs:
   changelog:
@@ -15,9 +15,12 @@ jobs:
           fetch-depth: 0
 
       - name: Gerar CHANGELOG.md
-        uses: github-actions-x/changelog-generator@v1
+        uses: orhun/git-cliff-action@v3
         with:
-          myToken: ${{ secrets.GITHUB_TOKEN }}
+          config: cliff.toml
+          args: --verbose
+        env:
+          OUTPUT: CHANGELOG.md
 
       - name: Commitar alteracao do Changelog
         uses: stefanzweifel/git-auto-commit-action@v5
