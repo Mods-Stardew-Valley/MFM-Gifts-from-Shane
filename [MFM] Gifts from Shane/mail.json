@@ -102,9 +102,9 @@
 },
 
 {
-	"Id": "ShaneRepetable",
+	"Id": "ShaneRepeteable",
     "GroupId": "ShaneLetters",
-    "Text": "ShaneRepetable",
+    "Text": "ShaneRepeteable",
 	"Repeatable": true,
 	"RandomChance": 0.075,
 	"FriendshipConditions": [ { "NpcName": "Shane", "FriendshipLevel": 1 } ],
