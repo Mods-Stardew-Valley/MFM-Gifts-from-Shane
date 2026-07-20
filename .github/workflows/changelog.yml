@@ -14,10 +14,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Gerar CHANGELOG.md Automatico
-        uses: github-changelog-generator/github-changelog-generator@v1.16.2
+      - name: Gerar CHANGELOG.md
+        uses: github-actions-x/changelog-generator@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          myToken: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commitar alteracao do Changelog
         uses: stefanzweifel/git-auto-commit-action@v5
