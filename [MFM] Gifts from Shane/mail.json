@@ -1,6 +1,6 @@
 [
     {	
-    "Id":"Reset Shane",
+    "Id":"ResetShane",
 	"AutoOpen": true,
     "MailReceivedToRemove": [
 		"MailShane01",
