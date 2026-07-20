@@ -1,4 +1,4 @@
-name: Atualizar Changelog Automatico
+name: Atualizar Changelog Automaticamente
 
 on:
   push:
